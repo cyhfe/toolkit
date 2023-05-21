@@ -5,8 +5,6 @@
 [![bundle][bundle-src]][bundle-href]
 [![JSDocs][jsdocs-src]][jsdocs-href]
 
-DOCUMENT:[https://cyhfe.github.io/toolkit/](https://cyhfe.github.io/toolkit/)
-
 ## API Documentation
 
 [https://cyhfe.github.io/toolkit/](https://cyhfe.github.io/toolkit/)
@@ -36,7 +34,7 @@ import * as toolkit from "@cyhfe/toolkit";
 const toolkit = require("@cyhfe/toolkit");
 
 // umd
-<script src="https://unpkg.com/browse/@cyhfe/toolkit/dist/index.umd.js" />;
+<script src="https://www.unpkg.com/@cyhfe/toolkit/dist/umd/index.js" />;
 
 window.toolkit;
 ```
