@@ -12,13 +12,15 @@
   },
   "scripts": {
     "build": "rm -dr dist && rollup -c",
-    "docs": "typedoc src/index.ts"
+    "docs": "typedoc src/index.ts",
+    "dev": "npx serve ./docs"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.1",
     "rollup": "^3.22.0",
+    "serve": "^14.2.0",
     "tslib": "^2.5.2",
     "typedoc": "^0.24.7",
     "typescript": "^5.0.4"

@@ -1,1 +1,2 @@
-export * as foo from "./foo";
+export { foo } from "./foo/index";
+export { bar } from "./bar/index";
