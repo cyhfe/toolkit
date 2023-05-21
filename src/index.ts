@@ -1,6 +1,4 @@
-function foo(a: number) {
-  return a;
-}
+import foo from "./foo";
 
 function bar() {
   console.log("bar");

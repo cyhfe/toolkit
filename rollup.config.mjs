@@ -16,7 +16,7 @@ export default [
       sourcemap: true,
     },
 
-    plugins: [typescript({ sourceMap: true })],
+    plugins: [typescript()],
   },
 
   //cjs
@@ -27,7 +27,7 @@ export default [
       format: "cjs",
       sourcemap: true,
     },
-    plugins: [typescript({ sourceMap: true })],
+    plugins: [typescript()],
   },
 
   // esm
