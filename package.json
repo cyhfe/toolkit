@@ -11,16 +11,16 @@
     "default": "./dist/cjs/index.js"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "docs": "typedoc src/index.ts"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-json": "^6.0.0",
-    "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.1",
     "rollup": "^3.22.0",
     "tslib": "^2.5.2",
+    "typedoc": "^0.24.7",
     "typescript": "^5.0.4"
   },
   "files": [
