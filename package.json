@@ -1,6 +1,6 @@
 {
   "name": "@cyhfe/toolkit",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "sideEffects": false,
   "browser": "./dist/umd/index.js",
@@ -23,5 +23,7 @@
     "tslib": "^2.5.2",
     "typescript": "^5.0.4"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
