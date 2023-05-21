@@ -6,7 +6,4 @@ function bar() {
   console.log("bar");
 }
 
-export default {
-  foo,
-  bar,
-};
+export default { foo, bar };
