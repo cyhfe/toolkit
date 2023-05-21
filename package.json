@@ -11,7 +11,7 @@
     "default": "./dist/cjs/index.js"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -dr dist && rollup -c",
     "docs": "typedoc src/index.ts"
   },
   "author": "",

@@ -1,5 +1,3 @@
-function foo() {
-  return 1;
+export function foo() {
+  console.log(foo);
 }
-
-export default foo;
