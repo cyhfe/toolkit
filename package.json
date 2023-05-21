@@ -13,7 +13,8 @@
   "scripts": {
     "build": "rm -dr dist && rollup -c",
     "docs": "typedoc src/index.ts",
-    "dev": "npx serve ./docs"
+    "dev": "npx serve ./docs",
+    "pre": "npm run build && npm run docs"
   },
   "author": "",
   "license": "MIT",

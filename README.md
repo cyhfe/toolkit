@@ -34,7 +34,7 @@ import * as toolkit from "@cyhfe/toolkit";
 const toolkit = require("@cyhfe/toolkit");
 
 // umd
-<script src="https://www.unpkg.com/@cyhfe/toolkit/dist/umd/index.js" />;
+<script src="https://unpkg.com/@cyhfe/toolkit@0.0.12/dist/umd/index.js"></script>;
 
 window.toolkit;
 ```
