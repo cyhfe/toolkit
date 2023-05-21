@@ -2,17 +2,21 @@
   "name": "@cyhfe/toolkit",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "browser": "dist/index.umd.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
   "scripts": {
     "build": "rollup -c"
   },
-  "browser": "dist/index.umd.js",
-  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-terser": "^0.4.3",
-    "rollup": "^3.22.0"
+    "@rollup/plugin-typescript": "^11.1.1",
+    "rollup": "^3.22.0",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4"
   }
 }

@@ -1,10 +1,29 @@
 import pkg from "./package.json" assert { type: "json" };
-
-export default {
-  input: "src/main.js",
-  output: {
-    name: "toolkit",
-    file: pkg.browser,
-    format: "umd",
+import typescript from "@rollup/plugin-typescript";
+export default [
+  {
+    input: "src/index.ts",
+    output: {
+      name: "toolkit",
+      file: pkg.browser,
+      format: "umd",
+    },
+    plugins: [typescript()],
   },
-};
+  {
+    input: "src/index.ts",
+    output: {
+      file: pkg.main,
+      format: "cjs",
+    },
+    plugins: [typescript()],
+  },
+  {
+    input: "src/index.ts",
+    output: {
+      file: pkg.module,
+      format: "esm",
+    },
+    plugins: [typescript()],
+  },
+];
