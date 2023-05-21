@@ -22,7 +22,7 @@ export default [
     input: "src/index.ts",
     output: {
       file: pkg.module,
-      format: "esm",
+      format: "es",
     },
     plugins: [typescript()],
   },

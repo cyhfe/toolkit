@@ -2,10 +2,17 @@
   "name": "@cyhfe/toolkit",
   "version": "0.0.3",
   "description": "",
+  "sideEffects": false,
   "browser": "dist/index.umd.js",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
   "scripts": {
     "build": "rollup -c"
   },
