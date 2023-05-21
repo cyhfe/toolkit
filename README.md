@@ -30,6 +30,11 @@ import * as toolkit from "@cyhfe/toolkit";
 
 // CommonJS
 const toolkit = require("@cyhfe/toolkit");
+
+// umd
+<script src="https://unpkg.com/browse/@cyhfe/toolkit/dist/index.umd.js" />;
+
+window.toolkit;
 ```
 
 ## License
