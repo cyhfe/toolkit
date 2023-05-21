@@ -1,5 +1,10 @@
-import pkg from "./package.json" assert { type: "json" };
+import { readFileSync } from "fs";
+const pkg = JSON.parse(
+  readFileSync(new URL("./package.json", import.meta.url), "utf8")
+);
+
 import typescript from "@rollup/plugin-typescript";
+
 export default [
   // umd
   {
@@ -8,8 +13,10 @@ export default [
       name: "toolkit",
       file: pkg.browser,
       format: "umd",
+      sourcemap: true,
     },
-    plugins: [typescript()],
+
+    plugins: [typescript({ sourceMap: true })],
   },
 
   //cjs
@@ -18,8 +25,9 @@ export default [
     output: {
       file: pkg.main,
       format: "cjs",
+      sourcemap: true,
     },
-    plugins: [typescript()],
+    plugins: [typescript({ sourceMap: true })],
   },
 
   // esm
@@ -28,6 +36,7 @@ export default [
     output: {
       file: pkg.module,
       format: "es",
+      sourcemap: true,
     },
     plugins: [typescript()],
   },

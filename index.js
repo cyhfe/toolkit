@@ -1,4 +1,4 @@
-// const toolkit = require("./dist/index.cjs");
-import toolkit from "./dist/index.mjs";
+const toolkit = require("./dist/cjs");
+// import toolkit from "./dist/es/index.js";
 
 console.log(toolkit);
