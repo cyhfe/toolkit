@@ -45,7 +45,5 @@ Published under [MIT License](./LICENSE).
 [npm-downloads-href]: https://npmjs.com/package/@cyhfe/toolkit
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/@cyhfe/toolkit?style=flat&colorA=18181B&colorB=F0DB4F
 [bundle-href]: https://bundlephobia.com/result?p=@cyhfe/toolkit
-[license-src]: https://img.shields.io/github/license/unjs/@cyhfe/toolkit.svg?style=flat&colorA=18181B&colorB=F0DB4F
-[license-href]: https://github.com/unjs/@cyhfe/toolkit/blob/main/LICENSE
-[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=F0DB4F
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-blue
 [jsdocs-href]: https://www.jsdocs.io/package/@cyhfe/toolkit
