@@ -1,6 +1,7 @@
 import pkg from "./package.json" assert { type: "json" };
 import typescript from "@rollup/plugin-typescript";
 export default [
+  // umd
   {
     input: "src/index.ts",
     output: {
@@ -10,6 +11,8 @@ export default [
     },
     plugins: [typescript()],
   },
+
+  //cjs
   {
     input: "src/index.ts",
     output: {
@@ -18,6 +21,8 @@ export default [
     },
     plugins: [typescript()],
   },
+
+  // esm
   {
     input: "src/index.ts",
     output: {
