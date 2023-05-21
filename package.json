@@ -1,6 +1,6 @@
 {
-  "name": "@cyhfe/test",
-  "version": "1.0.1",
+  "name": "@cyhfe/toolkit",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

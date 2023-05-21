@@ -2,4 +2,8 @@ function foo() {
   console.log("foo");
 }
 
-export { foo };
+function bar() {
+  console.log("bar");
+}
+
+export { foo, bar };
