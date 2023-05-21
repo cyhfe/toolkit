@@ -1,6 +1,6 @@
 {
   "name": "@cyhfe/toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "browser": "dist/index.umd.js",
   "main": "dist/index.cjs.js",
