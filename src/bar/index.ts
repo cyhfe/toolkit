@@ -1,3 +1,8 @@
-export function bar() {
-  console.log("bar");
+/**
+ *
+ * @param a
+ * @returns
+ */
+export function bar(a: number): number {
+  return a;
 }

@@ -1,8 +1,9 @@
 /**
- * Represents a book.
- * @param {string} title - The title of the book.
- * @param {string} author - The author of the book.
- * @param {string} author2 - The author of the book.
+ *asdasdasdf
+ * @param title dasdas
+ * @param author asdasd
+ * @param author2 asdasd
+ * @returns asdasd
  */
 export function foo(title: string, author: string, author2: string): string {
   return title + author + author2;
