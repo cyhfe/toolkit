@@ -16,7 +16,11 @@
     "dev": "npx serve ./docs",
     "pre": "npm run build && npm run docs"
   },
-  "author": "",
+  "homepage": "https://github.com/cyhfe/toolkit#readme",
+  "author": {
+    "name": "cyhfe",
+    "email": "cccchenyuhao@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.1",
