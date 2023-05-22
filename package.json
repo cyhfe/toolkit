@@ -11,7 +11,7 @@
     "default": "./dist/cjs/index.js"
   },
   "scripts": {
-    "build": "rm -dr dist && rollup -c",
+    "build": "rollup -c",
     "docs": "typedoc src/index.ts",
     "dev": "npx serve ./docs",
     "pre": "npm run build && npm run docs"
